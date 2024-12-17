@@ -1,0 +1,26 @@
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #a855f7; /* Purple accent */
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #c084fc; /* Lighter purple */
+}
+
+button {
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+}
